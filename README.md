@@ -22,6 +22,11 @@ Build for production:
 maizzle build production
 ```
 
+## How export to Activecampaign
+
+Please find the index.html file in folder **build_production/ello**
+Use this file for creating your own marketing funnels.
+
 ## Documentation
 
 Maizzle documentation is available at https://maizzle.com
