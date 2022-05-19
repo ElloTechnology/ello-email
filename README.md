@@ -22,10 +22,12 @@ Build for production:
 maizzle build production
 ```
 
-## How export to Activecampaign
+## How export to ActiveCampaign
 
-Please find the index.html file in folder **build_production/ello**
+Please find the index.html file in folder **build_production/ello**.
 Use this file for creating your own marketing funnels.
+
+here you can find detailed [ instruction](https://help.activecampaign.com/hc/en-us/articles/220687347-How-to-send-a-custom-HTML-email-campaign) how to import it
 
 ## Documentation
 
