@@ -16,7 +16,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         ello_header: "url('https://i.ibb.co/GTt0rX0/header-bg.png')",
-        ello_header_mob: "url('/images/header_bg_mob.png')",
+        ello_header_mob: "url('https://i.ibb.co/gZfnVw7/header-bg-mob.png')",
         wave_and_kid: "url('https://i.ibb.co/gDk2gsc/wave-and-kid.png')",
         mom_and_kid: "url('https://i.ibb.co/2NqxT18/mom-and-kid.png')",
         wave_and_robot: "url('https://i.ibb.co/PTZZdCV/wave-and-robot.png')"
