@@ -2,6 +2,7 @@ module.exports = {
   mode: "jit",
   theme: {
     screens: {
+      xs: { max: "430px" },
       sm: { max: "590px" },
       md: { max: "700px" }
     },
