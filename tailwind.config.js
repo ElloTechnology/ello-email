@@ -16,11 +16,16 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        ello_header: "url('https://i.ibb.co/GTt0rX0/header-bg.png')",
-        ello_header_mob: "url('https://i.ibb.co/gZfnVw7/header-bg-mob.png')",
-        wave_and_kid: "url('https://i.ibb.co/gDk2gsc/wave-and-kid.png')",
-        mom_and_kid: "url('https://i.ibb.co/2NqxT18/mom-and-kid.png')",
-        wave_and_robot: "url('https://i.ibb.co/PTZZdCV/wave-and-robot.png')"
+        ello_header:
+          "url('https://storage.googleapis.com/ello-public/images/header_bg.png')",
+        ello_header_mob:
+          "url('https://storage.googleapis.com/ello-public/images/header_bg_mob.png')",
+        wave_and_kid:
+          "url('https://storage.googleapis.com/ello-public/images/wave_and_kid.png')",
+        mom_and_kid:
+          "url('https://storage.googleapis.com/ello-public/images/mom_and_kid.png')",
+        wave_and_robot:
+          "url('https://storage.googleapis.com/ello-public/images/wave_and_robot.png')"
       },
       backgroundPosition: {
         "top-left": "70% 92%",
