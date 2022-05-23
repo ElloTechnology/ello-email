@@ -34,7 +34,12 @@ module.exports = {
       colors: {
         beige: "#eee7e7",
         brown: "#3b3b3b",
-        "brown-light": "#868686"
+        "brown-light": "#868686",
+        "ello-orange-600": "#f76434",
+        "ello-orange-500": "#f57d56",
+        "ello-orange-300": "#ff8a15",
+        "ello-orange-200": "#ffaf37",
+        "ello-orange-100": "#ffe6de",
       },
       spacing: {
         screen: "100vw",
