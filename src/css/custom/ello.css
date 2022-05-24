@@ -1,4 +1,5 @@
-.bg-ello-blue-500 {
+/* Moved to tailwind.config.js */
+/* .bg-ello-blue-500 {
   background-color: #335c6e;
 }
 .bg-ello-turquoise-500 {
@@ -13,6 +14,6 @@
 .text-ello-blue-500 {
   color: #335c6e;
 }
-/* .text-ello-blue-500 {
+.text-ello-blue-500 {
   color: #2c3232;
 } */
