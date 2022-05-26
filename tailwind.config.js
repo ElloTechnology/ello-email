@@ -4,7 +4,7 @@ module.exports = {
     screens: {
       xs: { max: "430px" },
       sm: { max: "590px" },
-      md: { max: "700px" },
+      md: { max: "700px" }
     },
     backgroundSize: {
       auto: "auto",
@@ -12,7 +12,7 @@ module.exports = {
       contain: "contain",
       "120": "120%",
       "140": "140%",
-      "16": "4rem",
+      "16": "4rem"
     },
     extend: {
       backgroundImage: {
@@ -25,11 +25,11 @@ module.exports = {
         mom_and_kid:
           "url('https://storage.googleapis.com/ello-public/images/mom_and_kid.png')",
         wave_and_robot:
-          "url('https://storage.googleapis.com/ello-public/images/wave_and_robot.png')",
+          "url('https://storage.googleapis.com/ello-public/images/wave_and_robot.png')"
       },
       backgroundPosition: {
         "top-left": "70% 92%",
-        "top-center": "50% 0%",
+        "top-center": "50% 0%"
       },
       colors: {
         beige: "#eee7e7",
@@ -44,7 +44,7 @@ module.exports = {
         "ello-orange-300": "#ff8a15",
         "ello-orange-200": "#ffaf37",
         "ello-orange-100": "#ffe6de",
-        "ello-gray-900": "#2c3232",
+        "ello-gray-900": "#2c3232"
       },
       spacing: {
         screen: "100vw",
@@ -110,48 +110,48 @@ module.exports = {
         "8/12": "66.666667%",
         "9/12": "75%",
         "10/12": "83.333333%",
-        "11/12": "91.666667%",
+        "11/12": "91.666667%"
       },
       borderWidth: {
         0: "0",
-        3: "3px",
+        3: "3px"
       },
       borderRadius: {
         sm: "2px",
         DEFAULT: "4px",
-        lg: "8px",
+        lg: "8px"
       },
       fontFamily: {
         "work-sans": [
           '"Work Sans"',
           "-apple-system",
           '"Segoe UI"',
-          "sans-serif",
+          "sans-serif"
         ],
         "open-sans": [
           '"Open Sans"',
           "-apple-system",
           '"Segoe UI"',
-          "sans-serif",
+          "sans-serif"
         ],
         "titillium-web": [
           '"Titillium Web"',
           "-apple-system",
           '"Segoe UI"',
-          "sans-serif",
+          "sans-serif"
         ],
         "source-sans-pro": [
           '"Source Sans Pro"',
           "-apple-system",
           '"Segoe UI"',
-          "sans-serif",
+          "sans-serif"
         ],
         quicksand: ["Quicksand", "-apple-system", '"Segoe UI"', "sans-serif"],
         lato: ["Lato", "-apple-system", '"Segoe UI"', "sans-serif"],
         sans: ["-apple-system", '"Segoe UI"', "sans-serif"],
         serif: ["Constantia", "Georgia", "serif"],
         mono: ["Menlo", "Consolas", "monospace"],
-        mulish: ["Mulish", "-apple-system", '"Segoe UI"', "sans-serif"],
+        mulish: ["Mulish", "-apple-system", '"Segoe UI"', "sans-serif"]
       },
       fontSize: {
         0: "0",
@@ -165,30 +165,30 @@ module.exports = {
         "2xl": "24px",
         "3xl": "30px",
         "4xl": "36px",
-        "5xl": "48px",
+        "5xl": "48px"
       },
-      inset: (theme) => ({
-        ...theme("spacing"),
+      inset: theme => ({
+        ...theme("spacing")
       }),
-      letterSpacing: (theme) => ({
-        ...theme("spacing"),
+      letterSpacing: theme => ({
+        ...theme("spacing")
       }),
-      lineHeight: (theme) => ({
-        ...theme("spacing"),
+      lineHeight: theme => ({
+        ...theme("spacing")
       }),
-      maxHeight: (theme) => ({
-        ...theme("spacing"),
+      maxHeight: theme => ({
+        ...theme("spacing")
       }),
-      maxWidth: (theme) => ({
-        ...theme("spacing"),
+      maxWidth: theme => ({
+        ...theme("spacing")
       }),
-      minHeight: (theme) => ({
-        ...theme("spacing"),
+      minHeight: theme => ({
+        ...theme("spacing")
       }),
-      minWidth: (theme) => ({
-        ...theme("spacing"),
-      }),
-    },
+      minWidth: theme => ({
+        ...theme("spacing")
+      })
+    }
   },
   corePlugins: {
     animation: false,
@@ -196,6 +196,6 @@ module.exports = {
     borderOpacity: false,
     divideOpacity: false,
     placeholderOpacity: false,
-    textOpacity: false,
-  },
+    textOpacity: false
+  }
 };
