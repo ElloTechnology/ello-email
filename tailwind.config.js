@@ -16,16 +16,11 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        ello_header:
-          "url('https://storage.googleapis.com/ello-public/images/header_bg.png')",
-        ello_header_mob:
-          "url('https://storage.googleapis.com/ello-public/images/header_bg_mob.png')",
-        wave_and_kid:
-          "url('https://storage.googleapis.com/ello-public/images/wave_and_kid.png')",
-        mom_and_kid:
-          "url('https://storage.googleapis.com/ello-public/images/mom_and_kid.png')",
-        wave_and_robot:
-          "url('https://storage.googleapis.com/ello-public/images/wave_and_robot.png')",
+        ello_header: "url('/images/header_bg.png')",
+        ello_header_mob: "url('/images/header_bg_mob.png')",
+        wave_and_kid: "url('/images/wave_and_kid.png')",
+        mom_and_kid: "url('/images/mom_and_kid.png')",
+        wave_and_robot: "url('/images/wave_and_robot.png')",
       },
       backgroundPosition: {
         "top-left": "70% 92%",

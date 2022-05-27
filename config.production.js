@@ -17,6 +17,7 @@ module.exports = {
       },
     },
   },
+  baseImageURL: "https://storage.googleapis.com/ello-public",
   inlineCSS: true,
   prettify: true,
   removeUnusedCSS: true,
