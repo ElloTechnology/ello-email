@@ -6,18 +6,15 @@
           <td>
             <div class="leading-[3rem]">&zwnj;</div>
             <table class="w-full">
+              <if condition="page.prefooter">
               <tr>
-                <td class="font-mulish">
-                  <p
-                    class="m-0 font-normal leading-[25px] text-[#FFFFFF] text-[1rem]"
-                  >
-                    Just because you’ve got your
-                    <strong>Raise a Reader Toolkit</strong> doesn’t mean you’re
-                    alone. We’ll be checking in soon with extra advice, ideas,
-                    and support!
+                <td class="font-mulish m-0 font-normal leading-[25px] text-[#FFFFFF] text-[1rem]">
+                  <p md>
+                    {{page.prefooter}}
                   </p>
                 </td>
               </tr>
+              <if condition="page.prefooter">
               <tr>
                 <td>
                   <div class="leading-[1.5rem] sm:leading-[0.7rem]">&zwnj;</div>

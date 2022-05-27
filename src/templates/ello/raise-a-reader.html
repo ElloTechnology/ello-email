@@ -3,18 +3,28 @@ preheader: "Let's get reading!"
 title: "Here's your Raise a Reader Toolkit 📚 🛠️"
 googleFonts: "family=Mulish:wght@400;500;600;700;800"
 wrapperClass: font-serif
+prefooter: "Just because you’ve got your
+**Raise a Reader Toolkit** doesn’t mean you’re
+alone. We’ll be checking in soon with extra advice, ideas,
+and support!"
 ---
 
 <extends src="src/layouts/main.html">
   <block name="template">
-    <component src="src/components/ello/header.html"></component>
-    <component src="src/components/ello/text-1.html"></component>
-    <component src="src/components/ello/section-kid.html"></component>
-    <component src="src/components/ello/text-2.html"></component>
-    <component src="src/components/ello/section-family.html"></component>
-    <component src="src/components/ello/text-3.html"></component>
-    <component src="src/components/ello/section-robot.html"></component>
-    <component src="src/components/ello/pre-footer.html"></component>
-    <component src="src/components/ello/footer.html"></component>
+    <component src="src/components/ello/raise-a-reader/header.html"></component>
+    <component src="src/components/ello/raise-a-reader/text-1.html"></component>
+    <component
+      src="src/components/ello/raise-a-reader/section-kid.html"
+    ></component>
+    <component src="src/components/ello/raise-a-reader/text-2.html"></component>
+    <component
+      src="src/components/ello/raise-a-reader/section-family.html"
+    ></component>
+    <component src="src/components/ello/raise-a-reader/text-3.html"></component>
+    <component
+      src="src/components/ello/raise-a-reader/section-robot.html"
+    ></component>
+    <component src="src/components/ello/shared/pre-footer.html"></component>
+    <component src="src/components/ello/shared/footer.html"></component>
   </block>
 </extends>
