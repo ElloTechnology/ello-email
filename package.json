@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "local": "maizzle build",
-    "production": "maizzle build production",
+    "prod": "maizzle build production",
     "watch": "maizzle serve"
   },
   "dependencies": {

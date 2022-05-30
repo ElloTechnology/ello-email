@@ -1,6 +1,6 @@
-## Maizzle Cenatrea Env
+## Ello Env
 
-The original Ello responsive email template, built with Tailwind CSS in Maizzle.
+The original Ello responsive email templates, built with Tailwind CSS in Maizzle.
 
 ### Getting started
 
