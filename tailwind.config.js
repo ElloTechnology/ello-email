@@ -21,6 +21,7 @@ module.exports = {
         wave_and_kid: "url('/images/wave_and_kid.png')",
         mom_and_kid: "url('/images/mom_and_kid.png')",
         wave_and_robot: "url('/images/wave_and_robot.png')",
+        stars: "url('/images/stars_bg.png')"
       },
       backgroundPosition: {
         "top-left": "70% 92%",
