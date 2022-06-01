@@ -22,7 +22,9 @@ module.exports = {
         mom_and_kid: "url('/images/mom_and_kid.png')",
         wave_and_robot: "url('/images/wave_and_robot.png')",
         stars: "url('/images/stars_bg.png')",
-        stars_mob: "url('/images/stars_bg_mob.png')"
+        stars_mob: "url('/images/stars_bg_mob.png')",
+        rocket: "url('/images/rocket_bg.png')",
+        rocket_mob: "url('/images/rocket_mob.png')"
       },
       backgroundPosition: {
         "top-left": "70% 92%",
